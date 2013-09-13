@@ -72,5 +72,7 @@ foreach ($arr as $v) {
 	}
 }
 
+if (empty($result)) { echo "NO"; }
+
 // print_r (f1 ($arr, null, $arr_len, 0));
 
